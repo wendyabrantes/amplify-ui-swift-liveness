@@ -8,6 +8,7 @@
 import SwiftUI
 import Amplify
 
+@available(iOS 14, *)
 class StartSessionViewModel: ObservableObject {
     @Published var presentationState: StartSessionView.PresentationState = .loading
     var window: UIWindow?

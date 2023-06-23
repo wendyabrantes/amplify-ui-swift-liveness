@@ -8,6 +8,7 @@
 import SwiftUI
 import Amplify
 
+@available(iOS 14, *)
 struct StartSessionView: View {
     @EnvironmentObject var sceneDelegate: SceneDelegate
     @ObservedObject var viewModel = StartSessionViewModel()

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 14, *)
 struct LivenessResultView<Content: View>: View {
     let title: String
     let sessionID: String

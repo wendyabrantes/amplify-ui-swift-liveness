@@ -9,6 +9,7 @@ import SwiftUI
 import FaceLiveness
 import Amplify
 
+@available(iOS 14, *)
 class ExampleLivenessViewModel: ObservableObject {
     @Published var presentationState = PresentationState.liveness
     let sessionID: String

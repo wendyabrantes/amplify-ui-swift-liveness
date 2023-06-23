@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 14, *)
 extension LivenessResultContentView {
     struct Result {
         let text: String

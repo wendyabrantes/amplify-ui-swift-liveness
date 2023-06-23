@@ -8,6 +8,7 @@
 import SwiftUI
 import FaceLiveness
 
+@available(iOS 14, *)
 struct ExampleLivenessView: View {
     @Binding var isPresented: Bool
     @ObservedObject var viewModel: ExampleLivenessViewModel

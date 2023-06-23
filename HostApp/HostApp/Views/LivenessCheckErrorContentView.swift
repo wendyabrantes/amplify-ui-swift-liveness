@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 14, *)
 struct LivenessCheckErrorContentView: View {
     let name: String
     let description: String

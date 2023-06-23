@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 14, *)
 struct RootView: View {
     @EnvironmentObject var sceneDelegate: SceneDelegate
     @State var sessionID = ""
